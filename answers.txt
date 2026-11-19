@@ -1,0 +1,56 @@
+profile.html:
+Page Background Color: Look at the body CSS selector. What property and hex color code set the background color of the whole page?
+
+background-color: #0f172a;
+
+
+
+Job Title Color: Which class selector controls the style of the job title ("Engineer")? What color property changes its text color?
+
+<div class="title">Engineer</div>
+
+"title" is calling the earlier portion of code that is title 
+
+        color: #38bdf8;
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin-bottom: 16px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+
+and saying to match that
+
+Hover State: Look at .btn-connect:hover. What color does the button turn when you hover your mouse over it? Read a bit about pseudo-classes here.
+
+color: #ffffff;
+
+its just pure white
+
+
+event.html:
+
+Card Border Color: Inside the .event-card selector, which CSS property creates the 2px solid #ec4899 border around the card? What color is #ec4899?
+
+border: 2px solid #ec4899;
+
+vibrant bright pink
+
+
+
+
+
+Text Size: Look at the h1 rule. What property controls how big the heading text is, and what value is assigned to it?
+
+font-size: 1.8rem;
+
+
+Rounded Corners: Which property is used inside .event-card to round the edges of the box by 20px?
+
+
+ border-radius: 20px;
+
+
+
+
+
+
